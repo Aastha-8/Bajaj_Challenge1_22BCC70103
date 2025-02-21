@@ -1,0 +1,10 @@
+### Send a POST request
+POST http://localhost:3000/bfhl
+Content-Type: application/json
+
+{
+  "data": ["M", "1", "334", "4", "B"]
+}
+
+### Send a GET request
+GET http://localhost:3000/bfhl
